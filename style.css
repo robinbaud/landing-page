@@ -32,7 +32,6 @@ header .row{
     header .row{
         background-position-x: center;
     }
-    
 }
 
 .form{
@@ -166,6 +165,18 @@ label{
         left: calc(50% - 50px);
     }
 }
+@media screen and (max-width: 500px){
+    .ligne{
+        position: relative;
+        left: 300px;
+    }
+    .rond{
+        left: calc(50% + 300px);
+    }
+    .box{
+        left: calc(50% - 50px);
+    }
+}
 
 footer{
     height: 80px;
@@ -181,3 +192,20 @@ footer{
     height: 80px;
 }
 
+@media (max-width: 480px){
+    .ligne{
+        position: relative;
+        left: 350px;
+    }
+    .rond{
+        left: calc(50% + 350px);
+    }
+    .box{
+        left: calc(50% - 50px);
+    }
+    header .row{
+        background-position-x: center;
+        width: 100vh;
+
+    }
+}
