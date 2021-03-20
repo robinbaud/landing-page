@@ -183,10 +183,10 @@ footer{
 @media (max-width: 480px){
     .ligne{
         position: relative;
-        left: 240px;
+        left: 350px;
     }
     .rond{
-        left: calc(50% + 240px);
+        left: calc(50% + 350px);
     }
     .box{
         left: calc(50% - 50px);
