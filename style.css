@@ -26,7 +26,7 @@ header .row{
     background-attachment: fixed;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);
 }
-@media (max-width: 600px){
+@media (max-width: 1000px){
     header .row{
         background-position-x: center;
     }
@@ -150,7 +150,7 @@ label{
      margin-top: 10px;
      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5); 
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1000px){
     .ligne{
         position: relative;
         left: 80px;
