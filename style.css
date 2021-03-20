@@ -31,7 +31,7 @@ header .row{
 @media (max-width: 600px){
     header .row{
         background-position-x: center;
-        max-width: 100%;
+        width: auto;
         height: auto;
     }
 }
