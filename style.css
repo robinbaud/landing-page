@@ -33,6 +33,7 @@ header .row{
         background-position-x: center;
     }
 }
+
 .form{
     background: rgba(0, 0, 0, 0.5);
     min-height: 80vh;
@@ -177,4 +178,22 @@ footer{
 
 footer{
     height: 80px;
+}
+
+@media (max-width: 480px){
+    .ligne{
+        position: relative;
+        left: 240px;
+    }
+    .rond{
+        left: calc(50% + 240px);
+    }
+    .box{
+        left: calc(50% - 50px);
+    }
+    header .row{
+        background-position-x: center;
+        width: 100vh;
+
+    }
 }
