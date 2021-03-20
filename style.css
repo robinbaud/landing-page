@@ -164,7 +164,7 @@ label{
     }
     .box{
         width: 320px;
-        left: calc(50% - 50px);
+        left: calc(80% - 50px);
     }
     .box p{
         font-size: 16px;
