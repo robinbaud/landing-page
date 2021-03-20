@@ -150,13 +150,13 @@ label{
      margin-top: 10px;
      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5); 
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 600px){
     .ligne{
         position: relative;
-        left: 200px;
+        left: 80px;
     }
     .rond{
-        left: calc(50% + 200px);
+        left: calc(50% + 80px);
     }
     .box{
         left: calc(50% - 50px);
