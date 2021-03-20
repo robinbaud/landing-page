@@ -31,6 +31,7 @@ header .row{
 @media (max-width: 600px){
     header .row{
         background-position-x: center;
+        background-size: cover;
     }
 }
 
@@ -165,10 +166,7 @@ label{
         left: calc(50% - 50px);
     }
     .profil{
-        width: 80%;
-        left: 50%;
-        transform: translate(-50%);
-
+        width: 100%;
     }
 }
 
