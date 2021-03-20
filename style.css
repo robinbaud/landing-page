@@ -1,5 +1,5 @@
 body{
-    background-color: #dd1515;
+    background-color: #f1f1f1;
     margin: 0;
     padding: 0;
 }
@@ -153,18 +153,18 @@ label{
      margin-top: 10px;
      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5); 
 }
-/*@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px){
     .ligne{
         position: relative;
-        left: 200px;
+        left: 10px;
     }
     .rond{
-        left: calc(50% + 200px);
+        left: calc(50% + 10px);
     }
     .box{
         left: calc(50% - 50px);
     }
-}*/
+}
 
 
 footer{
