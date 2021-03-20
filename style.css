@@ -20,7 +20,7 @@ main{
     color: black;
 }
 
-header .row{
+header {
     min-height: 80vh;
     background-image: url("Great.jpg");
     background-size: cover;
