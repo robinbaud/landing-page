@@ -157,10 +157,10 @@ label{
 @media screen and (max-width: 1000px){
     .ligne{
         position: relative;
-        left: 200px;
+        left: 300px;
     }
     .rond{
-        left: calc(50% + 200px);
+        left: calc(50% + 300px);
     }
     .box{
         width: 320px;
