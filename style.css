@@ -156,13 +156,16 @@ label{
 @media screen and (max-width: 1000px){
     .ligne{
         position: relative;
-        left: 10px;
+        left: 200px;
     }
     .rond{
-        left: calc(50% + 10px);
+        left: calc(50% + 200px);
     }
     .box{
         left: calc(50% - 50px);
+    }
+    .profil{
+        width: 100%;
     }
 }
 
