@@ -29,7 +29,7 @@ header {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);
 }
 @media (max-width: 600px){
-    header .row{
+    header {
         background-position-x: center;
         
     }
