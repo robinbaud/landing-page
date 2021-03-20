@@ -166,15 +166,8 @@ label{
     }
 }
 @media screen and (max-width: 500px){
-    .ligne{
-        position: relative;
-        left: 300px;
-    }
-    .rond{
-        left: calc(50% + 300px);
-    }
-    .box{
-        left: calc(50% - 50px);
+    body{
+        margin-right: -100px;
     }
 }
 
