@@ -161,6 +161,9 @@ label{
     .box{
         left: calc(50% - 50px);
     }
+    .box-timeline{
+        padding: 10px 0 250px 0;
+    }
 }
 
 footer{
